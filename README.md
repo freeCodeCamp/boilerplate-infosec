@@ -1,2 +1,2 @@
-# boilerplate-infosec
-A boilerplate for the freeCodeCamp curriculum.
+# Free Code Camp - Applied InfoSec Challenges
+=============================================
