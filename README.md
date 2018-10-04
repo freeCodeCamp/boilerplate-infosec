@@ -1,7 +1,9 @@
 # Free Code Camp - Applied InfoSec Challenges
 =============================================
 
-This is the repository for the freeCodeCamp [Information Security with HelmetJS Challenges](https://learn.freecodecamp.org/information-security-and-quality-assurance/information-security-with-helmetjs/).  
+This is the repository for the first 11 freeCodeCamp [Information Security with HelmetJS Challenges](https://learn.freecodecamp.org/information-security-and-quality-assurance/information-security-with-helmetjs/).  
+For the challenges from the 12th on upwards, you have to clone [this one](https://github.com/freeCodeCamp/boilerplate-bcrypt). 
+
 If you haven't worked with **git** before, you might first want to read a few   
 [resources](http://try.github.io/) about it, or go the [Glitch](https://glitch.com/) 
 way as described on the above mentioned challenge introduction page.
