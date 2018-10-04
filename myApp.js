@@ -177,7 +177,7 @@ var ninetyDaysInMilliseconds = 90*24*60*60*1000;
 
 
 
-/** TIP: */ 
+/** 11) Configure Helmet using the ‘parent’ Middleware `helmet()` */
 
 // `app.use(helmet())` will automatically include all the middleware
 // presented above, except `noCache()`, and `contentSecurityPolicy()`,
@@ -201,6 +201,13 @@ var ninetyDaysInMilliseconds = 90*24*60*60*1000;
 // We introduced each middleware separately, for teaching purpose, and for
 // ease of testing. Using the 'parent' `helmet()` middleware is easiest, and
 // cleaner, for a real project.
+
+
+
+/**
+ * For the challenges 12), 13) & 14) you have to switch to the Repository:
+ * https://github.com/freeCodeCamp/boilerplate-bcrypt/
+ */
 
 // ---- DO NOT EDIT BELOW THIS LINE ---------------------------------------
 
