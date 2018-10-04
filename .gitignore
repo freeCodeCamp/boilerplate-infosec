@@ -1,0 +1,10 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# npm
+node_modules
+.env
+yarn-error.log
