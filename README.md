@@ -2,43 +2,41 @@
 =============================================
 
 This is the repository for the first 11 freeCodeCamp [Information Security with HelmetJS Challenges](https://learn.freecodecamp.org/information-security-and-quality-assurance/information-security-with-helmetjs/).  
-For the challenges from the 12th on upwards, you have to clone [this one](https://github.com/freeCodeCamp/boilerplate-bcrypt). 
+For the 12th challenge and upwards, you will have to clone [this repository](https://github.com/freeCodeCamp/boilerplate-bcrypt). 
 
-If you haven't worked with **git** before, you might first want to read a few   
-[resources](http://try.github.io/) about it, or go the [Glitch](https://glitch.com/) 
-way as described on the above mentioned challenge introduction page.
+If you haven't used **git** before, you might want to first read
+[a bit](http://try.github.io/) about it, or try the [Glitch](https://glitch.com/) 
+way as described on the challenge introduction page mentioned above.
 
-To clone this Repository, go to a directory of your choice and enter:
-```
+To clone this repository, go to a directory of your choice and run:
+```bash
 git clone https://github.com/freeCodeCamp/boilerplate-infosec.git
 cd boilerplate-infosec
 ```
-But to be able to import it in Glitch or the coding platform of your choice,  
-you have to [create your own Repository on GitHub](https://help.github.com/articles/creating-a-new-repository/).  
-But before you are able to push to it, you have to remove the remote origin of
-freeCodeCamp,   
+In order to be able to import your local clone to Glitch (or any other coding platform of your choice),  
+you have to [create your own repository on GitHub](https://help.github.com/articles/creating-a-new-repository/), or [fork this repository](https://help.github.com/articles/fork-a-repo/).
+To be able to push to it, you have to remove the remote `origin`,
 rename the "gomix" branch to "master" and delete the gomix branch
-to have a clutter free Repository:
+(to have a clutter-free repository):
 ```
 git remote remove origin
 git branch -m master
 git branch -d gomix
 ```
-Then follow the steps outlined in **...or push an existing repository from the command line**  
-on the **Quick setup** screen, e.g.:
+Then follow the steps outlined in the **Quick setup** screen (you could also push to some other existing repository from the command line):
 ```
 git remote add origin git@github.com:<yourname>/<your_repository>.git
 git push -u origin master
 ```
 
-Now you should have a fully functional Repository you can import to a coding platform.  
-But to develop locally, there is one more step necessary, run:
+Now you should have a fully functional repository you can import to any coding platform.
+In order to develop locally, there is one more step necessary. Run:
 ```
 npm install
 ```
 
 Don't forget to commit and push your changes after each challenge step (and, 
 depending on your coding platform      
-of choice, reimport it there), so freeCodeCamp is able to test your results!  
+of choice, reimport it there), so that freeCodeCamp is able to test your results!  
 
 *Happy Coding!*
