@@ -9,21 +9,28 @@ If you haven't used **git** before, you might want to first read
 way as described on the challenge introduction page mentioned above.
 
 To clone this repository, go to a directory of your choice and run:
-```bash
+
+```
 git clone https://github.com/freeCodeCamp/boilerplate-infosec.git
 cd boilerplate-infosec
 ```
-In order to be able to import your local clone to Glitch (or any other coding platform of your choice),  
+
+In order to be able to import your local clone to Glitch (or any other coding 
+platform of your choice),  
 you have to [create your own repository on GitHub](https://help.github.com/articles/creating-a-new-repository/), or [fork this repository](https://help.github.com/articles/fork-a-repo/).
 To be able to push to it, you have to remove the remote `origin`,
 rename the "gomix" branch to "master" and delete the gomix branch
 (to have a clutter-free repository):
+
 ```
 git remote remove origin
 git branch -m master
 git branch -d gomix
 ```
-Then follow the steps outlined in the **Quick setup** screen (you could also push to some other existing repository from the command line):
+
+Then follow the steps outlined in the **Quick setup** screen (you could also push 
+to some other existing repository from the command line):
+
 ```
 git remote add origin git@github.com:<yourname>/<your_repository>.git
 git push -u origin master
@@ -31,6 +38,7 @@ git push -u origin master
 
 Now you should have a fully functional repository you can import to any coding platform.
 In order to develop locally, there is one more step necessary. Run:
+
 ```
 npm install
 ```
