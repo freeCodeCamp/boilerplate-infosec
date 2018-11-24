@@ -49,3 +49,10 @@ depending on your coding platform
 of choice, reimport it there), so that freeCodeCamp is able to test your results!  
 
 *Happy Coding!*
+
+#### Informational
+
+You might want to take a look at [this page](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore)
+for information about a global `.gitignore` file, so you won't accidentally commit
+and push your IDE's of choice helper files.
+
