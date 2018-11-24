@@ -36,7 +36,8 @@ git remote add origin git@github.com:<yourname>/<your_repository>.git
 git push -u origin master
 ```
 
-Now you should have a fully functional repository you can import to any coding platform.
+Now you should have a fully functional repository you can import to any coding platform.  
+**Important:**
 In order to develop locally, there is one more step necessary. Run:
 
 ```
