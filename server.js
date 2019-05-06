@@ -46,12 +46,7 @@ app.get('/app-info', function(req, res) {
   res.json({headers: hObj, appStack: appMainRouteStack });
 });
 
-app.get('/package.json', function(req, res, next) {
-	    fs.readFile(__dirname + '/package.json', function(err, data) {
-	      if(err) return next(err);
-	      res.type('txt').send(data.toString());
-	    });
-	  });
+
 
 app.use(function(req, res, next){
   res.status(404).type('txt').send('Not Found');
