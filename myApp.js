@@ -103,7 +103,7 @@ var app = express();              // Do Not Edit
 // helps to protect websites against protocol downgrade attacks and cookie hijacking.
 // If your website can be accessed via HTTPS you can ask user's browsers
 // to avoid using insecure HTTP. Setting the header `Strict-Transport-Security`
-// instruct browsers to use HTTPS for all the future requests occurring in a
+// instructs browsers to use HTTPS for all the future requests occurring in a
 // specified amount of time. This will work for the requests coming **after**
 // the initial request.
 
