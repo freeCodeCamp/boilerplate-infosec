@@ -118,7 +118,7 @@ var ninetyDaysInMilliseconds = 90*24*60*60*1000;
 
 //**Note**:
 // Configuring HTTPS on a custom website requires the acquisition of a domain,
-// and a SSL/TSL Certificate.
+// and a SSL/TLS Certificate.
 
 /** 8) Disable DNS Prefetching - `helmet.dnsPrefetchControl()` */
 
