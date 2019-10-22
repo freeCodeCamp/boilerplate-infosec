@@ -103,17 +103,17 @@ var app = express();              // Do Not Edit
 // helps to protect websites against protocol downgrade attacks and cookie hijacking.
 // If your website can be accessed via HTTPS you can ask user's browsers
 // to avoid using insecure HTTP. Setting the header `Strict-Transport-Security`
-// you instruct  browsers to use HTTPS for all the future requests occurring in a
+// instructs browsers to use HTTPS for all the future requests occurring in a
 // specified amount of time. This will work for the requests coming **after**
 // the initial request.
 
 // Configure `helmet.hsts()` to instruct browsers to use HTTPS for the next
-// **90 days**, passing the config object {maxAge: timeInMilliseconds}. 
+// **90 days**, passing the config object {maxAge: timeInSeconds}. 
 // HyperDev already has **hsts** enabled, to override its settings you need to 
 // set the field `force` to `true` in the config object. To not alter hyperdev security 
 // policy we will intercept and restore the header, after inspecting it for testing.
 
-var ninetyDaysInMilliseconds = 90*24*60*60*1000;
+var ninetyDaysInSeconds = 90*24*60*60;
 
 
 //**Note**:
