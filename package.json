@@ -1,5 +1,5 @@
 {
-	"name": "fcc-infosec-challenges",
+	"name": "helmet",
 	"version": "0.0.1",
 	"description": "fcc backend boilerplate",
 	"main": "server.js",
