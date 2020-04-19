@@ -1,7 +1,7 @@
 {
-	"name": "fcc-infosec-challenges",
+	"name": "fcc-helmet-challenges",
 	"version": "0.0.1",
-	"description": "fcc backend boilerplate",
+	"description": "fcc backend helmetjs",
 	"main": "server.js",
 	"scripts": {
 		"start": "node myApp.js"
