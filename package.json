@@ -8,6 +8,7 @@
 	},
 	"dependencies": {
 		"express": "^4.14.0",
+		"frameguard": "^3.1.0",
 		"helmet": "^3.23.3"
 	},
 	"engines": {
