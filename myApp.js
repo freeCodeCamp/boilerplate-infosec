@@ -11,7 +11,7 @@ var app = express();              // Do Not Edit
 /** - Challenges - *
 ********************/ 
 
-/** 1) Install and require `helmet` */
+/** 1) Install and require `helmet` version 3.21.3 */
 
 // [Helmet](https://github.com/helmetjs/helmet) helps you secure your
 // Express apps by setting various HTTP headers.
