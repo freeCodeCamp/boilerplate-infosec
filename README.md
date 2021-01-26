@@ -1,3 +1,1 @@
-# Free Code Camp - Applied InfoSec Challenges
-=============================================
-[![Run on Repl.it](https://repl.it/badge/github/freeCodeCamp/boilerplate-infosec)](https://repl.it/github/freeCodeCamp/boilerplate-infosec)
+# [Introduction to Information Security with HelmetJS Challenges](https://www.freecodecamp.org/learn/information-security/information-security-with-helmetjs/)
