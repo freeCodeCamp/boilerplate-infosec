@@ -7,10 +7,14 @@
 		"start": "node myApp.js"
 	},
 	"dependencies": {
+<<<<<<< HEAD
 		"express": "^4.17.1",
 		"helmet": "^3.21.3",
 		"logger": "0.0.1",
 		"require": "^2.4.20"
+=======
+		"express": "^4.14.0"
+>>>>>>> c51e3dc33ea3290eec6857b485ddaaeaa32eb15c
 	},
 	"keywords": [
 		"node",
