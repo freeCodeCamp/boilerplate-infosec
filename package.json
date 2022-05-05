@@ -7,7 +7,7 @@
 		"start": "node myApp.js"
 	},
 	"dependencies": {
-		"express": "^4.14.0",
+		"express": "^4.14.0"
 		"Helmet": "^3.21.2"
 	},
 	"keywords": [
