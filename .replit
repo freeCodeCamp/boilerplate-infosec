@@ -1,2 +1,10 @@
+run = "npm run start"
+entrypoint = "server.js"
+
+[packager]
 language = "nodejs"
-run = "npm start"
+
+  [packager.features]
+  packageSearch = true
+  guessImports = true
+  enabledForHosting = false
