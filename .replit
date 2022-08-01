@@ -1,4 +1,4 @@
-run = "npm start"
+run = "npm run start"
 entrypoint = "server.js"
 
 [packager]
