@@ -1,5 +1,6 @@
 {
 	"name": "fcc-infosec-challenges",
+	"author": "aishwarya",
 	"version": "0.0.1",
 	"description": "fcc backend boilerplate",
 	"main": "server.js",
