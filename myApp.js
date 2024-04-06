@@ -4,7 +4,8 @@ const app = express();
 app.use(helmet.frameguard({action: 'deny'}));
 const PORT = process.env.PORT || 3000;
 app.use(helmet.noSniff());
-app.use(helmet.xssFilter({}));
+app.use(helmet.ieNoOpen());
+app.use(helmet.xssFilter());
 app.use(helmet.hidePoweredBy());
 
 
