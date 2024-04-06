@@ -12,7 +12,11 @@ app.use(helmet.contentSecurityPolicy({ directives: { defaultSrc: ["'self'"], scr
 app.use(helmet.hsts({ maxAge: ninetyDaysInSeconds, force: true }));
 app.use(helmet.xssFilter());
 app.use(helmet.hidePoweredBy());
-
+app.use(
+  helmet({
+    crossOriginOpenerPolicy: { policy: "same-origin-allow-popups" },
+  })
+);
 
 module.exports = app;
 const api = require('./server.js');
